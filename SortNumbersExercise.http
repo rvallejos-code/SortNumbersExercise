@@ -1,0 +1,6 @@
+@SortNumbersExercise_HostAddress = http://localhost:5215
+
+GET {{SortNumbersExercise_HostAddress}}/sortnumber/
+Accept: application/json
+
+###
