@@ -11,7 +11,8 @@ public class SortNumberController : ControllerBase
     public SortNumberController(ILogger<SortNumberController> logger) =>
         _logger = logger;
 
-    public IEnumerable<int> Get()
+    [HttpGet]
+    public IEnumerable<int> Get([FromQuery] int[] numbers)
     {
         return [];
     }
